@@ -1,0 +1,89 @@
+
+h1{
+	font-size: 2.3em;
+	text-align: center;
+	color: #F00;
+}
+
+div.scrollmenu{
+	background-color: #0066ff;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+div.scrollmenu a {
+	display:inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+
+div.scrollmenu a:hover{
+	background-color: #777;
+}
+.icon-bar {
+    width: 100%; /* Full-width */
+    background-color: #555; /* Dark-grey background */
+    overflow: auto; /* Overflow due to float */
+}
+
+.icon-bar a {
+    float: left; /* Float links side by side */
+    text-align: center; /* Center-align text */
+    width: 30%; /* Equal width (5 icons with 20% width each = 100%)
+    padding: 12px 0; /* Some top and bottom padding */
+    transition: all 0.3s ease; /* Add transition for hover effects */
+    color: white; /* White text color */
+    font-size: 36px; /* Increased font size */
+}
+
+.icon-bar a:hover {
+    background-color: #000; /* Add a hover color */
+}
+
+.active {
+    background-color: #4CAF50; /* Add an active/current color */
+}
+
+body
+{
+	background: url('Images/20.jpg');
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+<table id="t01">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table
+
+
+table#t01 tr:nth-child(even) {
+    background-color: #d30a11;
+}
+table#t01 tr:nth-child(odd) {
+    background-color: #840e12;
+}
+table#t01 th {
+    color: white;
+    background-color: black;
+}
+
+<style>
+.borderexample
+{
+border-style:solid;
+border-color:#287EC7;
+}
+</style>
